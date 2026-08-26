@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What’s On — Sienna Arts</title>
+<meta name="description" content="Discover upcoming Sienna Arts programmes, artist-led learning experiences and cultural activities.">
+<link rel="icon" href="assets/sienna-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" data-site-header>
+  <div class="site-header__inner">
+    <a href="index.html" class="site-header__logo" aria-label="Sienna Arts home">
+      <img src="assets/sienna-logo.png" alt="Sienna Arts" width="1169" height="584">
+    </a>
+
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="art.html">Art</a>
+      <a href="design.html">Design</a>
+      <a href="community.html">Community</a>
+      <a href="whats-on.html" aria-current="page">What’s On</a>
+      <a href="about.html">About</a>
+    </nav>
+
+    <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Open menu" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="art.html">Art</a>
+      <a href="design.html">Design</a>
+      <a href="community.html">Community</a>
+      <a href="whats-on.html" aria-current="page">What’s On</a>
+      <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="page-hero" aria-labelledby="whatson-intro">
+    <p class="kicker eyebrow">What&rsquo;s On</p>
+    <div class="page-hero__grid">
+      <h1 id="whatson-intro" class="page-hero__title">Exhibitions, gatherings and creative experiences.</h1>
+      <p class="page-hero__lede">Discover upcoming Sienna Arts programmes, artist-led learning experiences and cultural activities.</p>
+    </div>
+  </section>
+
+  <section class="feature-media" aria-labelledby="featured-programme">
+    <div class="featured-event">
+      <div class="poster featured-event__media" data-label="The Art of Mindful Watercolour — poster pending">
+        <img src="assets/mindful-watercolour-wide.webp" alt="Poster for The Art of Mindful Watercolour, 17 October 2026, Gymea Bay Community and Recreation Centre" onerror="this.closest('.poster').classList.add('is-missing')">
+      </div>
+      <div class="featured-event__body">
+        <div class="featured-event__meta"><span>Workshop</span><span>17 October 2026</span></div>
+        <h2 id="featured-programme" class="featured-event__title">The Art of Mindful Watercolour</h2>
+        <p class="featured-event__location">Gymea Bay Community &amp; Recreation Centre</p>
+        <p class="featured-event__text">A mindful watercolour experience with artist and instructor Arafat Hosen, bringing together observation, painting and a slower approach to creative practice.</p>
+        <a href="https://www.eventbrite.com.au/e/1995864471361?aff=oddtdtcreator" rel="noopener" target="_blank" class="text-link" style="margin-top:10px">View Programme</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section" aria-labelledby="upcoming" style="padding-top:clamp(64px,8vw,128px)">
+    <p class="kicker eyebrow" style="margin-bottom:clamp(28px,3vw,44px)">Upcoming</p>
+    <article class="timeline-row" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));border-top:1px solid rgba(47,47,47,0.16);margin-top:0">
+      <div class="poster" data-label="Watercolour in Spring — poster pending" style="max-width:520px">
+        <img src="assets/watercolour-in-spring-wide.webp" alt="Poster for Watercolour in Spring, A Journey of Mind, Memory and Reflection, 14 November 2026, Thirroul" onerror="this.closest('.poster').classList.add('is-missing')">
+      </div>
+      <div class="timeline-row__body">
+        <div class="featured-event__meta"><span>Workshop</span><span>14 November 2026</span></div>
+        <h3 id="upcoming" class="timeline-row__title">Watercolour in Spring</h3>
+        <p style="margin:0;font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:clamp(18px,1.6vw,22px);line-height:1.3;color:rgba(47,47,47,0.72)">A Journey of Mind, Memory &amp; Reflection</p>
+        <p class="timeline-row__location">Thirroul</p>
+        <p class="timeline-row__text">A spring watercolour experience exploring observation, memory and personal response through painting, presented by Sienna Arts and led by Arafat Hosen.</p>
+        <a href="https://www.eventbrite.com.au/e/1998335626653?aff=oddtdtcreator" rel="noopener" target="_blank" class="text-link">View Programme</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="content-section content-section--last" aria-labelledby="past" style="padding-top:clamp(64px,8vw,128px)">
+    <p class="kicker eyebrow">Past</p>
+    <div class="content-section__grid">
+      <h2 id="past" class="content-section__title">Previous programmes.</h2>
+      <p class="content-section__text" style="color:rgba(47,47,47,0.7)">Past programmes, gatherings and creative-learning experiences from Sienna Arts.</p>
+    </div>
+
+    <article class="timeline-row">
+      <div class="timeline-row__poster poster" data-label="Watercolour Workshop with Artist Arafat — poster pending">
+        <img src="assets/ryde-workshop-2025-poster.webp" alt="Poster for Watercolour Workshop with Artist Arafat, 25 October 2025, West Ryde" onerror="this.closest('.poster').classList.add('is-missing')">
+      </div>
+      <div class="timeline-row__body">
+        <div class="timeline-row__meta"><span>Workshop</span><span>25 October 2025</span></div>
+        <h3 class="timeline-row__title">Watercolour Workshop with Artist Arafat</h3>
+        <p class="timeline-row__location">West Ryde, NSW</p>
+        <p class="timeline-row__text">An intimate artist-led watercolour session bringing participants together for a morning of observation, painting, learning and shared creative practice.</p>
+        <a href="#" class="text-link">View Programme Story</a>
+      </div>
+    </article>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__top">
+    <div class="site-footer__brand">
+      <a href="index.html" class="site-footer__logo" aria-label="Sienna Arts home">
+        <img src="assets/sienna-logo-light.png" alt="Sienna Arts" width="1169" height="584">
+      </a>
+      <p class="site-footer__tagline">A contemporary platform for art, design and community.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="index.html">Home</a>
+      <a href="whats-on.html">What’s On</a>
+      <a href="#">Contact</a>
+      <a href="art.html">Art</a>
+      <a href="https://www.instagram.com/siennaarts.au/" rel="noopener" target="_blank">Instagram</a>
+      <a href="design.html">Design</a>
+      <a href="about.html">About</a>
+      <a href="community.html">Community</a>
+    </nav>
+  </div>
+  <div class="wrap site-footer__bottom">
+    <span>Sydney, NSW, Australia</span>
+    <span>&copy; Sienna Arts 2026</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
