@@ -1361,17 +1361,19 @@ img { max-width: 100%; }
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: clamp(20px, 2.5vw, 32px);
 }
-.gallery-tile {
-  aspect-ratio: 4 / 3;
+.gallery-grid figure {
+  margin: 0;
   display: flex;
-  align-items: flex-end;
-  padding: 16px;
-  background: var(--color-bg-alt);
-  border: 1px dashed rgba(47, 47, 47, 0.28);
+  flex-direction: column;
+  gap: 10px;
 }
-.gallery-tile span {
-  font-family: var(--font-mono);
-  font-size: 11.5px;
-  letter-spacing: 0.05em;
-  color: rgba(47, 47, 47, 0.45);
+.gallery-grid .media {
+  aspect-ratio: 4 / 3;
+  background: var(--color-bg-alt);
+}
+.gallery-grid figcaption {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: rgba(47, 47, 47, 0.6);
 }
