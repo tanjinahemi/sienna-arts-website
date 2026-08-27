@@ -19,3 +19,25 @@
     }
   });
 })();
+
+(function () {
+  var CONTACT_EMAIL = 'studiosienna.au@gmail.com';
+
+  document.addEventListener('submit', function (event) {
+    var form = event.target.closest('[data-mailto-form]');
+    if (!form) return;
+    event.preventDefault();
+
+    var data = new FormData(form);
+    var subject = data.get('subject') || 'Enquiry';
+    var body =
+      'Name: ' + (data.get('name') || '') + '\n' +
+      'Email: ' + (data.get('email') || '') + '\n\n' +
+      (data.get('message') || '');
+
+    window.location.href =
+      'mailto:' + CONTACT_EMAIL +
+      '?subject=' + encodeURIComponent(subject) +
+      '&body=' + encodeURIComponent(body);
+  });
+})();

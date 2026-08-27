@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Sienna Arts</title>
+<meta name="description" content="Get in touch with Sienna Arts for collaborations, partnerships, creative programmes, artist or designer enquiries, and general questions.">
+<link rel="icon" href="assets/sienna-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" data-site-header>
+  <div class="site-header__inner">
+    <a href="index.html" class="site-header__logo" aria-label="Sienna Arts home">
+      <img src="assets/sienna-logo.png" alt="Sienna Arts" width="1169" height="584">
+    </a>
+
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="art.html">Art</a>
+      <a href="design.html">Design</a>
+      <a href="community.html">Community</a>
+      <a href="whats-on.html">What&rsquo;s On</a>
+      <a href="about.html">About</a>
+    </nav>
+
+    <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Open menu" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Primary">
+    <a href="index.html">Home</a>
+    <a href="art.html">Art</a>
+    <a href="design.html">Design</a>
+    <a href="community.html">Community</a>
+    <a href="whats-on.html">What&rsquo;s On</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="page-hero" aria-labelledby="contact-intro">
+    <p class="kicker eyebrow">Contact</p>
+    <div class="page-hero__grid">
+      <h1 id="contact-intro" class="page-hero__title">Let&rsquo;s start a conversation.</h1>
+      <p class="page-hero__lede">For collaborations, partnerships, creative programmes, artist or designer enquiries, and general questions about Sienna Arts.</p>
+    </div>
+  </section>
+
+  <section class="content-section content-section--last" aria-labelledby="contact-form-heading">
+    <div class="contact-layout">
+
+      <form class="contact-form" data-mailto-form novalidate>
+        <h2 id="contact-form-heading" class="contact-form__title">Send a message</h2>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="c-name">Name</label>
+            <input id="c-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="c-email">Email</label>
+            <input id="c-email" name="email" type="email" autocomplete="email" required>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="c-subject">Enquiry</label>
+          <select id="c-subject" name="subject">
+            <option>General enquiries</option>
+            <option>Collaborations &amp; partnerships</option>
+            <option>Creative programmes</option>
+            <option>Artist / designer enquiries</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="c-message">Message</label>
+          <textarea id="c-message" name="message" rows="6" required></textarea>
+        </div>
+
+        <button type="submit" class="form-submit">Send message</button>
+
+        <p class="form-note">Sending opens your email client with this message pre-filled, addressed to Sienna Arts — nothing is submitted to a server.</p>
+      </form>
+
+      <aside class="contact-aside">
+        <div class="contact-aside__block">
+          <h2>Email</h2>
+          <p><a href="mailto:studiosienna.au@gmail.com">studiosienna.au@gmail.com</a></p>
+        </div>
+        <div class="contact-aside__block">
+          <h2>Location</h2>
+          <p>Sydney, NSW, Australia</p>
+        </div>
+        <div class="contact-aside__block">
+          <h2>Follow</h2>
+          <p><a href="https://www.instagram.com/siennaarts.au/" rel="noopener" target="_blank">Instagram</a></p>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__top">
+    <div class="site-footer__brand">
+      <a href="index.html" class="site-footer__logo" aria-label="Sienna Arts home">
+        <img src="assets/sienna-logo-light.png" alt="Sienna Arts" width="1169" height="584">
+      </a>
+      <p class="site-footer__tagline">A contemporary platform for art, design and community.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="index.html">Home</a>
+      <a href="whats-on.html">What&rsquo;s On</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a href="art.html">Art</a>
+      <a href="https://www.instagram.com/siennaarts.au/" rel="noopener" target="_blank">Instagram</a>
+      <a href="design.html">Design</a>
+      <a href="about.html">About</a>
+      <a href="community.html">Community</a>
+    </nav>
+  </div>
+  <div class="wrap site-footer__bottom">
+    <span>Sydney, NSW, Australia</span>
+    <span>&copy; Sienna Arts 2026</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
